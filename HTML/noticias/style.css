@@ -1,0 +1,17 @@
+h1{
+color: blueviolet;
+font-weight: 900;
+text-shadow: 2px 2px black;
+}
+h2{
+color: red;
+font-weight: 100;
+}
+img{
+width: 124px;
+height: 92px;
+border-radius: 360px;
+}
+p{
+font-weight: 900;
+}
