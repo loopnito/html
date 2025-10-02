@@ -1,0 +1,7 @@
+.class{
+    opacity: 0.25;
+}
+.class:hover{
+    opacity: 0.9;
+    transform: scale(2,2);
+}
