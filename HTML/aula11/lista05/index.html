@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    img{
+        width: 200px;
+    }
+    .img1{
+        filter: grayscale(100%);
+    }
+    .img2{
+        filter: sepia(100%);
+    }
+    .img3{
+        filter: invert(100%);
+    }
+    .img4{
+        filter: blur(4px);
+    }
+    .img5{
+        filter: brightness(150%);
+    }
+    .img6{
+        filter: contrast(200%);
+    }
+    .imghover:hover {
+        filter: invert(100%);
+        transform: scale(2,2);
+    }
+    .grid{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas: 
+        "aa bb cc"
+        "dd ee ff"
+        ;
+
+        filter: grayscale(100%);
+        filter: blur(200px);
+    }
+    .grid:hover{
+       filter: blur(0);
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Stupidware.webp" class="img1">
+    <img src="Stupidware.webp" class="img2">
+    <img src="Stupidware.webp" class="img3">
+    <img src="Stupidware.webp" class="img4">
+    <img src="Stupidware.webp" class="img5">
+    <img src="Stupidware.webp" class="img6">
+
+    <img src="Stupidware.webp" class="imghover">
+
+    <div class="grid">
+        <img src="https://i.pinimg.com/originals/3f/6c/17/3f6c17ab94a5280056845261d6904e06.webp">
+        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-71650f9b1c11091f5bcd637d4a18d9a7_screen.jpg?ts=1698340540">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcdItcOZ9wpWGslfpic6KUaz9drTruSQAN_g&s" class="cc">
+        <img src="https://i.pinimg.com/originals/31/62/cf/3162cfe71f1b57289ccff705f0dc8e4f.jpg">
+        <img src="https://www.europanet.com.br/posteres-filmes-series/img/capas/107168.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXQwtpt-0_KkNkZPJXqnRlrjtJ7DVZ9QJxBQ&s">
+    </div>
+
+</body>
+</html>
