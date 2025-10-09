@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+    "aa bb cc"
+    "dd ee ff"
+    ;
+}
+.aa{
+    grid-area: aa;
+    background-color: red;
+}
+.bb{
+    grid-area: bb;
+    background-color: blue;
+}
+.cc{
+    grid-area: cc;
+    background-color: green;
+}
+.dd{
+    grid-area: dd;
+    background-color: yellow;
+}
+.ee{
+    grid-area: ee;
+    background-color: orange;
+}
+.ff{
+    grid-area: ff;
+    background-color: rosybrown;
+}

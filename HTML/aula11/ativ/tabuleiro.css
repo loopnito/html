@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "aa bb cc"
+    "dd ee ff"
+    "gg hh ii"
+    "jj kk ll"
+    ;
+    height: 100vh;
+}
+.aa{
+    grid-area: aa;
+    background-color: red;
+}
+.bb{
+    grid-area: bb;
+    background-color: blue;
+}
+.cc{
+    grid-area: cc;
+    background-color: green;
+}
+.dd{
+    grid-area: dd;
+    background-color: yellow;
+}
+.ee{
+    grid-area: ee;
+    background-color: orange;
+}
+.ff{
+    grid-area: ff;
+    background-color: rosybrown;
+}
+.gg{
+    grid-area: gg;
+    background-color: rgb(0, 190, 159);
+}
+.hh{
+    grid-area: hh;
+    background-color: rgb(141, 218, 19);
+}
+.ii{
+    grid-area: ii;
+    background-color: rgb(218, 19, 208);
+}
+.jj{
+    grid-area: jj;
+    background-color: rgb(162, 0, 255);
+}
+.kk{
+    grid-area: kk;
+    background-color: rgb(151, 68, 0);
+}
+.ll{
+    grid-area: ll;
+    background-color: rgb(151, 0, 101);
+}
