@@ -1,0 +1,71 @@
+.button{
+    background-color: red;
+}
+.button:hover{
+    transition: 0.4s;
+    background-color: yellow;
+}
+.crescendo{
+    width: 10px;
+}
+.crescendo:hover{
+    transition: 30000s;
+    width: 2000000px;
+}
+.atraso{
+    transition-delay: 0.5s;
+}
+.atraso:hover{
+    background-color: rebeccapurple;
+    border: solid black;
+}
+.cartao{
+    box-shadow: red 6px 6px 6px 20px;
+    width: 200px;
+    height: 200px;
+}
+.cartao:hover{
+    transition: 1s;
+    box-shadow: rgb(18, 237, 245) 10px 10px 10px 222px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.um{
+    transition: 0.3s ease-in-out;
+    color: blue
+}
+.um:hover{
+    color: bisque;
+}
+.tres{
+    transition-delay: 1s;
+}
+.tres:hover{
+    color: red;
+    font-size: 100px;
+}
+img{
+    width: 100px;
+    transition: 0.5s linear;
+}
+img:hover{
+    width: 1000px;
+}
+nav{
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    padding: 10px;
+    background-color: rgb(255, 0, 255);
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    color: crimson;
+}
