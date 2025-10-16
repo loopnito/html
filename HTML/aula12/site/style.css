@@ -1,0 +1,51 @@
+header{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    color: pink;
+}
+header a:hover{
+    transition: 0.5s;
+    color: purple;
+}
+
+main button{
+    transition: 0.5s;
+}
+main button:hover{
+    background-color: red;
+    transform: scale(2, 2);
+}
+main img:hover{
+    zoom: 2;
+}
+
+.card{
+    box-shadow: red 6px 6px 6px 20px;
+    width: 200px;
+    height: 200px;
+}
+.card:hover{
+    transition: 1s;
+    box-shadow: rgb(18, 237, 245) 10px 10px 10px 222px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+footer{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: pink;
+}
+footer a:hover{
+    transition: 0.5s;
+    color: purple;
+}
